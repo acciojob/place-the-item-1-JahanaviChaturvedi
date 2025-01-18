@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 0 1 auto;
+    margin: 0 10px; /* Adjust the space between items */
+}
